@@ -1,0 +1,41 @@
+Parallel corpora for 6 Indian languages created on Mechanical Turk 
+==================================================================
+
+This tarball contains data sets for Bengali, Hindi, Malayalam, Tamil, Telugu and Urdu.   Note that every source segments was translated redundantly by four different Turkers.   We ensured that the training, test and dev sets were non-overlapping (none of the sets contain the same source segment). The dictionaries were created in a separate HIT.  You're welcome to append them to the end of the training data when you compile a translation model.  
+
+Here are the sizes of the different sets:
+
+   24812  300048 bn-en/training.bn
+   24812  342968 bn-en/training.en
+   41396  608929 hi-en/training.en
+   41396  741432 hi-en/training.hi
+   35624  444417 ml-en/training.en
+   35624  321292 ml-en/training.ml
+   40320  406099 ta-en/training.en
+   40320  377628 ta-en/training.ta
+   46408  526151 te-en/training.en
+   46408  452600 te-en/training.te
+   33244  471717 ur-en/training.en
+   33244  689564 ur-en/training.ur
+
+     775    9374 bn-en/test.bn
+    1000   18083 hi-en/test.hi
+    1000    8851 ml-en/test.ml
+    1000    8905 ta-en/test.ta
+    1000   10330 te-en/test.te
+    1000   20461 ur-en/test.ur
+
+     775    9305 bn-en/dev.bn
+    1000   17345 hi-en/dev.hi
+    1000    9209 ml-en/dev.ml
+    1000    9737 ta-en/dev.ta
+    1000    9783 te-en/dev.te
+    1000   21273 ur-en/dev.ur
+
+    6011    9556 bn-en/dict.en
+  144505  248987 ml-en/dict.en
+   69128  106663 ta-en/dict.en
+   38532   63566 te-en/dict.en
+  113911  115366 ur-en/dict.en
+
+Since the data was created by non-expert translators hired over Mechanical Turk, it's of mixed quality.  
