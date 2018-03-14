@@ -1,6 +1,9 @@
 '''
 python formCreator.py originFile numberOfFilesToBeCreated
 Output folder format: textfiles -> [docs, text]
+
+convert to pdf: 
+for f in *.docx; do lowriter --headless --convert-to pdf $f; done
 '''
 
 
